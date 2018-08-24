@@ -55,8 +55,10 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @light-gray;
+  color: lighten(@dark-gray, 5%);
+  // border-bottom: 1px solid darken(@very-dark-gray, 5%);
   font-weight: lighter;
+  font-style: italic;
 }
 
 .syntax--keyword {
