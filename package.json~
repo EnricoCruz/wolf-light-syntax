@@ -1,0 +1,17 @@
+{
+  "name": "wolf--light-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A short description of your syntax theme",
+  "keywords": [
+    "syntax",
+    "wolf",
+    "light",
+    "theme"
+  ],
+  "repository": "https://github.com/EnricoCruz/wolf-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+</head>
+<body id="demo-prueba">
+
+   <script>
+   /* checking some comments */
+   // comment 2
+      var test = function(){
+         document.getElementById('someId');
+         test.onclick = function(){
+            $('.buttons').each( () =>{
+               $(this).attr('class', 'selected')
+            });
+         }
+
+         return false;
+      }
+
+      class Pergamino extends Papel {
+         constructor(a,b){
+            this.a = a;
+            this.b = b;
+            console.log('lorem ipsum...')
+         }
+      }
+
+      const express = require('express');
+      const app = expresss();
+
+      app.use('/', express.static('/public'));
+   </script>
+</body>
+</html>
